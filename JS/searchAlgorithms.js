@@ -20,6 +20,7 @@ class searchAlgorithms {
             let nodeValue = Number(this.list[index].innerHTML);
             if(nodeValue === this.queryValue) {
                 this._mark(index);
+                break;
             }
             else {
                 await this.help._pause();
