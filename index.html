@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./faviconi.ico" type="image/x-icon">
+    <link rel="icon" href="./faviconi.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Algorithms Visualizer</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar" id="navbar">
+        <a id="random" onclick="RenderScreen()">Random</a>
+        
+        <span class="options">
+            <select name="Algorithm" id="menu" class="algo-menu">
+                <option value="0">Algorithm</option>
+                <option value="1">Bubble Sort</option>
+                <option value="2">Selection Sort</option>
+                <option value="3">Insertion Sort</option>
+                <option value="4">Merge Sort</option>
+                <option value="5">Quick Sort</option>
+                <option value="6">Heap Sort</option>
+                <option value="7">Depth First Search</option>
+                <option value="8">Breadth First Search</option>
+                <option value="9">Linear Search</option>
+                <option value="10">Binary Search</option>
+            </select>
+        </span>
+
+        <span class="options">
+            <select name="Size" id="menu" class="size-menu">
+                <option value="0">Size</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="60">60</option>
+                <option value="70">70</option>
+                <option value="80">80</option>
+                <option value="90">90</option>
+                <option value="100">100</option>
+            </select>
+        </span>
+
+        <span class="options">
+            <select name="Algorithm" id="menu" class="speed-menu">
+                <option value="0">Speed</option>
+                <option value="0.5">0.50x</option>
+                <option value="0.75">0.75x</option>
+                <option value="1">1.00x</option>
+                <option value="2">2.00x</option>
+                <option value="4">4.00x</option>
+            </select>
+        </span>
+
+        <span class="options">
+            <input type="number" id="menu" class ="input" placeholder="number to be searched">
+        </span>
+
+        <a class="start">Start!</a>
+        <a class="icon"><i class="fa fa-bars"></i>
+    </div>
+    <!-- Navbar -->
+
+
+    <!-- Main frame -->
+    <div class="frame">
+        <div class="array"></div>
+    </div>
+    <!-- Main frame -->
+
+    <!-- Footer -->
+    <footer>
+        <a href="https://www.linkedin.com/in/sanskriti-choudhary-3981431a4/" target="_blank">
+        Sanskriti Choudhary</a>
+    </footer>
+    <!-- Footer ends here -->
+
+
+    <!-- Scripts -->
+    <script src="./JS/app.js"></script>
+    <script src="./JS/gridAlgorithms.js"></script>
+    <script src="./JS/helper.js"></script>
+    <script src="./JS/searchAlgorithms.js"></script>
+    <script src="./JS/sortAlgorithms.js"></script>
+
+</body>
+</html>
